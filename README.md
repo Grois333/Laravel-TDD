@@ -4,7 +4,7 @@ This is a Laravel 8 CRUD application built using **Test Driven Development (TDD)
 
 ## Features
 - Laravel 8 with Tailwind CSS for styling.
-- Test Driven Development (TDD) approach using Laravel Mox.
+- Test Driven Development (TDD) approach using Laravel Mix.
 - User authentication and profile management.
 - Repository management: add, edit, and delete repositories.
 - Displays repositories with links and descriptions.
@@ -53,10 +53,19 @@ php artisan test
 
 ## Video Demo
 Watch the video walkthrough of the application:
-[![Watch the Video](https://www.loom.com/share/7990e4e285b44b89bdd3b6e4e54c4e76)](https://www.loom.com/share/7990e4e285b44b89bdd3b6e4e54c4e76)
+
+https://www.loom.com/share/7990e4e285b44b89bdd3b6e4e54c4e76
+
 
 ## Screenshots
-![App Screenshot](your-image-link-here)
+
+![App Screenshot](https://raw.githubusercontent.com/Grois333/Laravel-TDD/refs/heads/master/resources/img/app.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Grois333/Laravel-TDD/refs/heads/master/resources/img/edit-profile.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Grois333/Laravel-TDD/refs/heads/master/resources/img/repos.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Grois333/Laravel-TDD/refs/heads/master/resources/img/tdd.png)
 
 
 
