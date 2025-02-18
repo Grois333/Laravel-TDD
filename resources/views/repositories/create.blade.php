@@ -19,7 +19,7 @@
                     
                     <hr class="my-4">
 
-                    <input type="submit" value="Guardar" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-md">
+                    <input type="submit" value="Save" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-md">
                 </form>
             </div>
         </div>

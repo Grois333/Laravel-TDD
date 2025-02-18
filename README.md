@@ -1,3 +1,68 @@
+# Laravel 8 CRUD App with TDD
+
+This is a Laravel 8 CRUD application built using **Test Driven Development (TDD)**. The app allows users to manage repositories, providing an admin dashboard where authenticated users can edit their profiles, view repositories, add new repositories, update, and delete them.
+
+## Features
+- Laravel 8 with Tailwind CSS for styling.
+- Test Driven Development (TDD) approach using Laravel Mox.
+- User authentication and profile management.
+- Repository management: add, edit, and delete repositories.
+- Displays repositories with links and descriptions.
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. Install dependencies:
+   ```sh
+   composer install
+   npm install && npm run dev
+   ```
+
+3. Set up the environment file:
+   ```sh
+   cp .env.example .env
+   ```
+   Configure your database and other environment settings inside `.env`.
+
+4. Generate the application key:
+   ```sh
+   php artisan key:generate
+   ```
+
+5. Run migrations and seed the database:
+   ```sh
+   php artisan migrate --seed
+   ```
+
+6. Start the development server:
+   ```sh
+   php artisan serve
+   ```
+
+## Running Tests
+
+This application follows **Test Driven Development (TDD)**. To run tests, use:
+```sh
+php artisan test
+```
+
+## Video Demo
+Watch the video walkthrough of the application:
+[![Watch the Video](https://www.loom.com/share/7990e4e285b44b89bdd3b6e4e54c4e76)](https://www.loom.com/share/7990e4e285b44b89bdd3b6e4e54c4e76)
+
+## Screenshots
+![App Screenshot](your-image-link-here)
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
